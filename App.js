@@ -73,7 +73,7 @@ class App extends Component {
                     <TextInput
                         style={{height: 40, width: '90%', borderColor: 'gray', borderWidth: 1}}
                         onChangeText={(pa) => this.setState({pa})}
-                          ="password"
+                        placeholder="password"
                         value={this.state.pa}
 
                     />
