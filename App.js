@@ -58,38 +58,38 @@ class App extends Component {
 
         return (
             <View style={styles.container}>
-                {/*<View style={styles.box}>*/}
-                {/*    <Text>From Login</Text>*/}
-                {/*</View>*/}
-                {/*<View style={styles.box}>*/}
-                {/*    <TextInput*/}
-                {/*        style={{height: 40, width: '90%', borderColor: 'gray', borderWidth: 1}}*/}
-                {/*        onChangeText={(un) => this.setState({un})}*/}
-                {/*        placeholder="username"*/}
-                {/*        value={this.state.un}*/}
-                {/*    />*/}
-                {/*</View>*/}
-                {/*<View style={styles.box}>*/}
-                {/*    <TextInput*/}
-                {/*        style={{height: 40, width: '90%', borderColor: 'gray', borderWidth: 1}}*/}
-                {/*        onChangeText={(pa) => this.setState({pa})}*/}
-                {/*        placeholder="password"*/}
-                {/*        value={this.state.pa}*/}
+                <View style={styles.box}>
+                    <Text>From Login AAAAA</Text>
+                </View>
+                <View style={styles.box}>
+                    <TextInput
+                        style={{height: 40, width: '90%', borderColor: 'gray', borderWidth: 1}}
+                        onChangeText={(un) => this.setState({un})}
+                        placeholder="username"
+                        value={this.state.un}
+                    />
+                </View>
+                <View style={styles.box}>
+                    <TextInput
+                        style={{height: 40, width: '90%', borderColor: 'gray', borderWidth: 1}}
+                        onChangeText={(pa) => this.setState({pa})}
+                        placeholder="password"
+                        value={this.state.pa}
 
-                {/*    />*/}
+                    />
 
-                {/*</View>*/}
-                {/*<View style={styles.box}>*/}
-                {/*    <TouchableOpacity onPress={() => {*/}
-                {/*        this.LOGIN();*/}
-                {/*    }}>*/}
-                {/*        <Text>Login</Text>*/}
-                {/*    </TouchableOpacity>*/}
-                {/*</View>*/}
-                {/*<View style={styles.box2}>*/}
-                {/*    <Text>{this.state.kq}</Text>*/}
+                </View>
+                <View style={styles.box}>
+                    <TouchableOpacity onPress={() => {
+                        this.LOGIN();
+                    }}>
+                        <Text>Login</Text>
+                    </TouchableOpacity>
+                </View>
+                <View style={styles.box2}>
+                    <Text>{this.state.kq}</Text>
 
-                {/*</View>*/}
+                </View>
 
             </View>
         );
